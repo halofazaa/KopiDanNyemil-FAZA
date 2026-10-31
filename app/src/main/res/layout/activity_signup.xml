@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F5"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Top Bar with Back & Logo Only (No Text) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext"
+            android:padding="10dp"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#4B3621"
+            android:contentDescription="Back"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kopidannyemil"
+            android:contentDescription="Logo" />
+    </LinearLayout>
+
+    <!-- Hero Image -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/macchiato"
+            android:contentDescription="Hero image" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jeda yang enak,\ndimulai di sini."
+        android:textColor="#2C221E"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:lineSpacingExtra="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Jadi bagian dari Kopi dan Nyemil. Pesan lebih mudah, simpan favoritmu, dan nikmati kejutan di setiap cangkir."
+        android:textColor="#8D6E63"
+        android:textSize="13sp"
+        android:lineSpacingExtra="2dp" />
+
+    <!-- Feature Tags -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:text="🎁  Promo spesial"
+            android:textColor="#4B3621"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/bg_edittext"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:text="☕  Racikan lokal"
+            android:textColor="#4B3621"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnGoRegister"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#4B3621"
+        android:text="Daftar akun baru"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:cornerRadius="16dp" />
+
+    <Button
+        android:id="@+id/btnGoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Sudah punya akun? Masuk"
+        android:textColor="#4B3621"
+        android:textSize="15sp"
+        app:cornerRadius="16dp"
+        app:strokeColor="#D7CCC8"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Dengan melanjutkan, kamu menyetujui Syarat &amp; Ketentuan serta Kebijakan Privasi kami."
+        android:textColor="#A1887F"
+        android:textSize="11sp" />
+
+</LinearLayout>

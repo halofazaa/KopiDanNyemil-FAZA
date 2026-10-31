@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Top Bar with Back & Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edittext"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_revert"
+                app:tint="#4B3621"
+                android:contentDescription="Back"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Daftar akun"
+                android:textColor="#4B3621"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Mini Brand Header -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kopidannyemil"
+                android:contentDescription="Logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Kopi dan Nyemil"
+                android:textColor="#4B3621"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kenalan dulu, yuk."
+            android:textColor="#2C221E"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Satu akun untuk semua momen ngopi dan nyemil favoritmu."
+            android:textColor="#8D6E63"
+            android:textSize="13sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama lengkap"
+            android:textColor="#4B3621"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:id="@+id/etRegisterNama"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Faza"
+            android:paddingHorizontal="16dp"
+            android:textColor="#2C221E"
+            android:textColorHint="#A1887F"
+            android:textSize="14sp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="#4B3621"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="faza"
+            android:paddingHorizontal="16dp"
+            android:textColor="#2C221E"
+            android:textColorHint="#A1887F"
+            android:textSize="14sp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#4B3621"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="email@gmail.com"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="16dp"
+            android:textColor="#2C221E"
+            android:textColorHint="#A1887F"
+            android:textSize="14sp"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kata sandi"
+            android:textColor="#4B3621"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="Buat kata sandi"
+            android:inputType="textPassword"
+            android:paddingHorizontal="16dp"
+            android:textColor="#2C221E"
+            android:textColorHint="#A1887F"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minimal 8 karakter, gunakan huruf dan angka."
+            android:textColor="#8D6E63"
+            android:textSize="11sp"
+            android:layout_marginBottom="16dp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Saya setuju dengan Syarat &amp; Ketentuan dan Kebijakan Privasi Kopi dan Nyemil."
+            android:textColor="#4B3621"
+            android:textSize="12sp"
+            android:buttonTint="#4B3621"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnRegisterSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="#4B3621"
+            android:text="→  Buat akun"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            app:cornerRadius="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sudah punya akun? Masuk"
+            android:textColor="#6D4C41"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

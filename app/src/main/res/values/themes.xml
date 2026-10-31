@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KopiDanNyemil" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#6F4E37</item> <!-- Coffee Brown -->
+        <item name="colorPrimaryVariant">#4B3621</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#D7CCC8</item>
+        <item name="colorOnSecondary">#2C221E</item>
+        <item name="android:statusBarColor">#4B3621</item>
+    </style>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F5"
+    android:orientation="vertical">
+
+    <!-- Header Logo Image Only (Uncropped) -->
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kopidannyemil"
+        android:contentDescription="Logo" />
+
+    <!-- Hero Image with rounded corners & badge -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/biscoff_latte"
+                android:contentDescription="Hero image" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Top Badge -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✨  KOPI LOKAL, RASA SPESIAL"
+                android:textColor="#4B3621"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Content Bottom -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingBottom="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secangkir hangat.\nSebungkus bahagia."
+            android:textColor="#2C221E"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Kopi favorit dan camilan enak, siap menemani setiap jeda harimu."
+            android:textColor="#8D6E63"
+            android:textSize="14sp"
+            android:lineSpacingExtra="2dp" />
+
+        <Button
+            android:id="@+id/btnStartNow"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#4B3621"
+            android:text="Mulai sekarang  →"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:cornerRadius="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Dibuat dengan hati, diseduh untukmu."
+            android:textColor="#A1887F"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>
