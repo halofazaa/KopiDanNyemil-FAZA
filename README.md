@@ -23,15 +23,15 @@ Aplikasi mobile Android modern yang dirancang untuk memberikan pengalaman pemesa
    * Fitur persetujuan Syarat & Ketentuan serta Kebijakan Privasi.
 
 5. **Beranda & Katalog Menu (Home)**
-   * **Header Lokasi**: *"ANTAR KE • Rumah • Jl. Melati No. 12"*.
+   * **Header Lokasi**: *"ANTAR KE : Bandung"*.
    * **Sapaan Dinamis**: Memanggil nama pengguna secara otomatis (*"Mau ngopi apa, Nadia?"*).
    * **Pencarian & Banner Promo**: Banner promosi *"Ngopi + nyemil, lebih hemat."*.
-   * **Filter Kategori**: Menyaring menu berdasarkan *Semua*, *Kopi*, *Non-Kopi*, dan *Camilan*.
-   * **Daftar Favorit**: Menampilkan item favorit lengkap dengan foto, deskripsi singkat, rating bintang, dan harga (seperti *Kopi Susu Gula Aren*, *Donat Cokelat*, *Croissant Keju*, *Cappuccino*, dan *Matcha Latte*).
+   * **Filter Kategori**: Menyaring menu berdasarkan *Semua*, *Kopi*, dan *Camilan*.
+   * **Daftar Favorit**: Menampilkan item favorit lengkap dengan foto, deskripsi singkat, rating bintang, dan harga (seperti *Caramel Iced Coffee*, *Butter Croissant*, *Classic Cheesecake*, dan *Biscoff Latte*).
    * **Bottom Navigation Bar**: Navigasi mudah antar *Beranda*, *Pesanan*, dan *Profil*.
 
 6. **Profil Saya**
-   * Avatar inisial dinamis (*NP*) dan lencana keanggotaan (*"Teman ngopi sejak..."*).
+   * Avatar inisial dinamis (*FZ*) dan lencana keanggotaan (*"Teman ngopi sejak..."*).
    * Form ubah informasi pribadi (Nama Lengkap, Email, Nomor Telepon).
    * Akses cepat ke *Alamat tersimpan* dan *Riwayat pesanan*.
 
