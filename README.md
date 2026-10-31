@@ -76,6 +76,7 @@ Aplikasi mobile Android modern yang dirancang untuk memberikan pengalaman pemesa
 <img width="576" height="1280" alt="daftar akun UI" src="https://github.com/user-attachments/assets/ecdf177c-64bf-454e-bbe1-8fc3b4838cb9" />
 <img width="576" height="1280" alt="masuk akun UI" src="https://github.com/user-attachments/assets/a09ced83-80a7-4de6-ba95-1dfbd6259784" />
 <img width="576" height="1280" alt="berandaa kopi UI" src="https://github.com/user-attachments/assets/3f1b1515-6c73-44cd-b544-3b794457d15d" />
+<img width="576" height="1280" alt="menu scrollview UI" src="https://github.com/user-attachments/assets/2b74ab20-2f2b-457d-ad60-1a52e29ddaeb" />
 <img width="576" height="1280" alt="beranda camilan UI" src="https://github.com/user-attachments/assets/89b6921d-893d-4d8a-8e63-912e47e0886c" />
 <img width="576" height="1280" alt="alamat pengiriman UI" src="https://github.com/user-attachments/assets/81699b4c-fa6e-49a3-96a9-9f09afb08327" />
 <img width="576" height="1280" alt="detail pesanan UI" src="https://github.com/user-attachments/assets/38474007-8761-4f2d-b2cd-72ce1e8c70c0" />
