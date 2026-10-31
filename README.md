@@ -1,4 +1,4 @@
-# ☕ Kopi dan Nyemil — Aplikasi Pemesanan Kopi & Camilan Android
+# ☕ Kopi dan Nyemil: Aplikasi Pemesanan Kopi & Camilan Android
 
 Aplikasi mobile Android modern yang dirancang untuk memberikan pengalaman pemesanan kopi dan camilan lezat secara praktis, cepat, dan estetik. Dikembangkan menggunakan **Kotlin** dan **Material Design**, aplikasi ini mengusung antarmuka yang hangat (*warm coffee theme*), bersih, dan ramah pengguna (*user-friendly*).
 
@@ -73,7 +73,7 @@ Aplikasi mobile Android modern yang dirancang untuk memberikan pengalaman pemesa
 ## 📸 Tampilan Antarmuka 
 <img width="576" height="1280" alt="selamat datang UI" src="https://github.com/user-attachments/assets/74fb4bd5-04e7-4a09-b701-67e895d19443" />
 <img width="576" height="1280" alt="pilihan masuk atau daftar UI" src="https://github.com/user-attachments/assets/831ca638-970d-4135-9a9a-1391fc556edd" />
-<img width="576" height="1280" alt="daftar akun UI" src="https://github.com/user-attachments/assets/9db7258a-2fcc-4ce8-8236-2d3db1531b17" />
+<img width="576" height="1280" alt="daftar akun UI" src="https://github.com/user-attachments/assets/ecdf177c-64bf-454e-bbe1-8fc3b4838cb9" />
 <img width="576" height="1280" alt="masuk akun UI" src="https://github.com/user-attachments/assets/a09ced83-80a7-4de6-ba95-1dfbd6259784" />
 <img width="576" height="1280" alt="berandaa kopi UI" src="https://github.com/user-attachments/assets/3f1b1515-6c73-44cd-b544-3b794457d15d" />
 <img width="576" height="1280" alt="beranda camilan UI" src="https://github.com/user-attachments/assets/89b6921d-893d-4d8a-8e63-912e47e0886c" />
